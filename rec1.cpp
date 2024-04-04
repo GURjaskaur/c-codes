@@ -1,5 +1,6 @@
-// finding sum of first natural numbers
 #include <stdio.h>
+// finding sum of first natural numbers
+
 // int sum(int n)
 // {
 //     if (n == 0)
