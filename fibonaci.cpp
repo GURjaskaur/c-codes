@@ -14,7 +14,7 @@ int mfib(int n)
         if (F[n - 1] == -1)
             F[n - 1] = mfib(n - 1);
         F[n] = F[n - 1] + F[n - 2];
-        return F[n - 1] + F[n - 2];
+        return F[n];
     }
 }
 int main()
@@ -24,6 +24,6 @@ int main()
     {
         F[i] = -1;
     }
-    printf("%d", mfib(5));
+    printf("%d", mfib(6));
     return 0;
 }
